@@ -1,5 +1,5 @@
 const TrieNode = require('./trieNode')
-const ethUtil = require('ethereumjs-util')
+const ethUtil = require('@neburo/ethereumjs-util')
 const matchingNibbleLength = require('./util').matchingNibbleLength
 
 /**

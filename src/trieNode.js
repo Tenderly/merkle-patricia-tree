@@ -1,5 +1,5 @@
 const rlp = require('rlp')
-const ethUtil = require('ethereumjs-util')
+const ethUtil = require('@neburo/ethereumjs-util')
 
 module.exports = TrieNode
 
