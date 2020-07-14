@@ -2,7 +2,7 @@ const Trie = require('../index.js')
 const async = require('async')
 const rlp = require('rlp')
 const tape = require('tape')
-const ethUtil = require('ethereumjs-util')
+const ethUtil = require('@neburo/ethereumjs-util')
 
 tape('simple save and retrive', function (tester) {
   var it = tester.test
